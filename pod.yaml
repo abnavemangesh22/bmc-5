@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  labels:
+    env: prod
+    demo: test
+  name: front-end
+spec:
+  containers:
+  - image: mangeshabnave/myrestro-bmc5
+    name: demo
